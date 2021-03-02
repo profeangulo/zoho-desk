@@ -1,0 +1,86 @@
+/* Patrones globales del CSS */ 
+/* Títulos, Enlaces y Botones */ 
+h1, h2, h3, a, button { font-family: 'Montserrat', sans-serif; }
+
+/* Subtítulos, Párrafos, Formularios y otras etiquetas de textos */ 
+h4, h5, h6, p, form, input, select, textarea, option, table, tr, th, td, span, div, strong, em { font-family: 'Poppins', sans-serif; }
+
+/* Asignar display: block; a todas las cajas de estructura */ 
+header, main, footer, aside, section, article, figure, nav, figcaption, div { display: block; }
+
+/* Anular margen por defecto de body */ 
+body { margin: 0 !important; }
+
+
+
+/* Estilo propio */
+
+/* Componente: Contenedor MAIN */
+main { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
+
+
+
+/* Componente: Sección "presentacion" */
+main section#presentacion { width: 100%; height: 100vh; position: relative; margin: 0 auto 70px; float: none; background: #fff; }
+
+main section#presentacion article { width: 1100px; height: 100vh; position: relative; margin: 0 auto; float: none; }
+
+main section#presentacion article figure { width: 510px; height: 100vh; position: relative; margin: 0 80px 0 0; float: left; }
+main section#presentacion article figure img#logo { width: 206px; height: auto; position: relative; float: none; margin: 8vh 0 15px; display: block; }
+main section#presentacion article figure p { margin: 0; font-size: 0.9em; color: #000; letter-spacing: 0.02em; font-weight: 400; line-height: 1.75em; padding: 0 0 25px 0; }
+main section#presentacion article figure img#img-producto { width: 100%; height: auto; position: relative; float: none; margin: 0 auto; display: block; }
+
+main section#presentacion article div#formulario { width: 510px; height: 100vh; position: relative; margin: 0; float: left; }
+main section#presentacion article div#formulario .title-form { color: #337ab7; font-family: 'Montserrat', sans-serif; font-weight: bolder; padding: 7vh 0 0 0; margin: 0 0 5px 0; font-size: 1.95em; }
+main section#presentacion article div#formulario #txt-info { color: #000; font-family: 'Montserrat', sans-serif; font-size: 1em; line-height: 1.45em; text-align: left; font-weight: 600; margin: 0 0 15px 0; }
+main section#presentacion article div#formulario #acepto-ok { color: #337ab7; font-family: 'Montserrat', sans-serif; font-weight: 700; margin: 0; font-size: 1em; line-height: 1em; text-decoration: underline; padding: 0 0 0 5px; background: transparent !important; transition: all 0.3s ease-in; }
+main section#presentacion article div#formulario #acepto-ok:hover { color: #333; transition: all 0.15s ease-out; }
+.zcwf_lblLeft .zcwf_col_fld { padding: 0 30px 0 0 !important; }
+
+
+
+/* FOOTER */
+#footer { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('../img/bg-footer.png') no-repeat bottom center fixed; background-size: cover; }
+#footer article { width: 1100px; height: 300px; display: block; margin: 0 auto; float: none; position: relative; }
+
+#footer article a#logo-foo { width: 206px; height: 104px; display: block; margin: 105px 255px 0 0; float: left; position: relative; border-radius: 5px; overflow: hidden; transition: all 0.3s ease-in; }
+#footer article a#logo-foo img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+#footer article a#logo-foo:hover { opacity: 0.75; transition: all 0.15s ease-out; }
+
+#footer article nav { width: 202px; height: 40px; display: block; margin: 133px 0 0 0; float: left; position: relative; }
+#footer article nav a { width: 40px; height: 40px; display: block; margin: 0 5px; float: left; position: relative; font-size: 0.75em; color: white; text-align: center; padding: 9px 0; transition: all 0.3s ease-in; }
+#footer article nav a:hover { color: #337ab7; transition: all 0.3s ease-in; }
+
+#footer article a#logo-opensky { width: auto; height: 71px; display: block; margin: 100px 0 0 0; float: right; position: relative; transition: all 0.3s ease-in; }
+#footer article a#logo-opensky img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+#footer article a#logo-opensky:hover { opacity: 0.75; transition: all 0.15s ease-out; }
+
+
+
+/* Zona de Media Queries para Responsive */
+
+/* Ajustes Tablets */
+@media only screen and (max-width: 1199px){
+    main section#presentacion { height: auto; }
+    main section#presentacion article { width: 80%; height: auto; }
+    main section#presentacion article figure { width: 100%; height: auto; margin: 0 auto 50px; float: none; }
+    main section#presentacion article figure img#logo { margin: 8vh auto 55px; }
+    main section#presentacion article figure p { text-align: center; }
+    main section#presentacion article div#formulario { width: 100%; height: auto; margin: 0 auto; float: none; }
+
+    .zcwf_lblLeft .zcwf_col_fld { padding: 0 !important; }
+
+    footer#footer article { width: 80%; height: auto; padding: 90px 0 110px; }
+    footer#footer article a#logo-foo { width: 206px; height: auto; margin: 0 auto 55px; float: none; }
+    footer#footer article nav { margin: 0 auto 55px; float: none; }
+    footer#footer article a#logo-opensky { width: 206px; height: auto; margin: 0 auto; float: none; }
+}
+
+/* Ajustes para Móviles */
+@media only screen and (max-width: 499px){
+    
+}
+
+@media only screen and (max-width: 399px){
+
+}
