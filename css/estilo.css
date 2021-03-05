@@ -33,7 +33,7 @@ main section#presentacion article figure img#img-producto { width: 100%; height:
 main section#presentacion article div#formulario { width: 510px; height: 100vh; position: relative; margin: 0; float: left; }
 main section#presentacion article div#formulario .title-form { color: #337ab7; font-family: 'Montserrat', sans-serif; font-weight: bolder; padding: 7vh 0 0 0; margin: 0 0 5px 0; font-size: 1.95em; }
 main section#presentacion article div#formulario #txt-info { color: #000; font-family: 'Montserrat', sans-serif; font-size: 1em; line-height: 1.45em; text-align: left; font-weight: 600; margin: 0 0 15px 0; }
-main section#presentacion article div#formulario #acepto-ok { color: #337ab7; font-family: 'Montserrat', sans-serif; font-weight: 700; margin: 0; font-size: 1em; line-height: 1em; text-decoration: underline; padding: 0 0 0 5px; background: transparent !important; transition: all 0.3s ease-in; }
+main section#presentacion article div#formulario #acepto-ok { color: #337ab7; font-family: 'Montserrat', sans-serif; font-weight: 700; margin: 0; font-size: 1.25em; line-height: 1.15em; text-decoration: underline; padding: 0; background: transparent !important; transition: all 0.3s ease-in; }
 main section#presentacion article div#formulario #acepto-ok:hover { color: #333; transition: all 0.15s ease-out; }
 .zcwf_lblLeft .zcwf_col_fld { padding: 0 30px 0 0 !important; }
 
